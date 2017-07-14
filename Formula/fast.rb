@@ -24,7 +24,6 @@ class Fast < Formula
     args = [
       "--prefix=#{prefix}",
     ]
-    system "./configure", *args
     system "make"
     system "make", "install"
   end
