@@ -7,7 +7,7 @@ class Fast < Formula
   bottle do
     root_url "https://github.com/f-ast/fast/releases/download/v0.0.4"
     cellar :any
-    sha256 "c6dbd2a0c335787044a623065d1d427d95ae2fc0f62eb76b3202f0a4f98475b9" => :sierra
+    sha256 "17236ba6fc48df4b835bfecc50c6b6e51b78715402e97a05a7731634609cce6b" => :sierra
     sha256 "1e77ab41415d37827738aac32ab28ee756a78befbb9576f0f4b3ef8ca6cac815" => :el_capitan
   end
 
@@ -19,6 +19,7 @@ class Fast < Formula
   depends_on "antlr"
   depends_on "antlr4-cpp-runtime"
   depends_on "lcov"
+  depends_on "jq"
 
   def install
     system "make"
