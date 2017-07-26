@@ -2,7 +2,7 @@ class Fast < Formula
   desc "Flattening Abstract Syntax Trees"
   homepage "https://github.com/f-ast/fast"
   url "https://github.com/f-ast/fast/archive/v0.0.4.tar.gz"
-  sha256 "ccc772bbc2f4da03b7d313e014cb0c219b0a1a93a3b50d97f8107bb7a2f55532"
+  sha256 "3dcc628dd077d45cafa6f222d1ca7f29716356ac7c4e2a27a81dd86e74fdbe58"
 
   bottle do
     root_url "https://github.com/f-ast/fast/releases/download/v0.0.4"
