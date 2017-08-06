@@ -23,7 +23,7 @@ class Fast < Formula
 
   def install
     system "make"
-    system "make", "install"
+    system "sudo", "make", "install"
   end
 
   test do
