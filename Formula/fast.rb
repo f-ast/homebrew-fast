@@ -7,7 +7,7 @@ class Fast < Formula
   bottle do
     root_url "https://github.com/f-ast/fast/releases/download/v0.0.5"
     cellar :any
-    sha256 "2f783b518c3726f4768fa51e9f9a3f854241e0b4024b831494cc41dc1a4f00ef" => :sierra
+    sha256 "866d01836499250b5c930357a58822742c1a5e4ab2a82840c61ce08c460dddb7" => :sierra
     sha256 "1e77ab41415d37827738aac32ab28ee756a78befbb9576f0f4b3ef8ca6cac815" => :el_capitan
   end
 
