@@ -9,7 +9,7 @@ class Fast < Formula
     cellar :any
     sha256 "010f75795eb48567f66f7382f115793eb666ca61cf40dbb89aa62e1622a4cf76" => :high_sierra
     sha256 "" => :sierra
-    sha256 "" => :el_capitan
+    sha256 "8acf4c37ef526ef570238ae8bba1c67b360be418ca0e0f0aa289fb21d4d9bb20" => :el_capitan
   end
 
   depends_on "flatbuffers" => :build
